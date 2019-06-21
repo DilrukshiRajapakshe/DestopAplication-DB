@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="courseForm" prefHeight="603.0" prefWidth="583.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller">
+   <children>
+      <ImageView fx:id="home" fitHeight="45.0" fitWidth="38.0" layoutX="24.0" layoutY="24.0" onMouseClicked="#goHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Home_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="38.0" fitWidth="38.0" layoutX="522.0" layoutY="24.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Back_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="save" fitHeight="38.0" fitWidth="38.0" layoutX="158.0" layoutY="231.0" onMouseClicked="#SaveANDUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/SaveAll_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="deleted" fitHeight="38.0" fitWidth="38.0" layoutX="313.0" layoutY="231.0" onMouseClicked="#DeletedRow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/DeleteRow_48px.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="CourseTable" layoutX="20.0" layoutY="286.0" prefHeight="295.0" prefWidth="542.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Course ID" />
+            <TableColumn prefWidth="134.0" text="Course Name" />
+            <TableColumn prefWidth="227.0" text="Description" />
+            <TableColumn prefWidth="105.0" text="duration" />
+         </columns>
+      </TableView>
+      <TextField fx:id="Cid" layoutX="25.0" layoutY="81.0" prefHeight="25.0" prefWidth="533.0" promptText="Course ID" />
+      <TextField fx:id="Cname" layoutX="25.0" layoutY="117.0" prefHeight="25.0" prefWidth="533.0" promptText="Course Name" />
+      <TextField fx:id="Cdis" layoutX="25.0" layoutY="154.0" prefHeight="25.0" prefWidth="533.0" promptText="Description" />
+      <TextField fx:id="Cdu" layoutX="25.0" layoutY="191.0" prefHeight="25.0" prefWidth="533.0" promptText="duration" />
+      <Label layoutX="197.0" layoutY="28.0" prefHeight="30.0" prefWidth="213.0" text="Course Information">
+         <font>
+            <Font name="Bodoni MT Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="BatchForm" prefHeight="665.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sliit.destope.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller">
+   <children>
+      <ImageView fx:id="home" fitHeight="45.0" fitWidth="38.0" layoutX="34.0" layoutY="34.0" onMouseClicked="#goHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Home_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="38.0" fitWidth="38.0" layoutX="532.0" layoutY="34.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Back_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="save" fitHeight="38.0" fitWidth="38.0" layoutX="169.0" layoutY="295.0" onMouseClicked="#SaveANDUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/SaveAll_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="deleted" fitHeight="38.0" fitWidth="38.0" layoutX="324.0" layoutY="295.0" onMouseClicked="#DeletedRow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/DeleteRow_48px.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="BatchTable" layoutX="29.0" layoutY="356.0" prefHeight="295.0" prefWidth="542.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Batch ID" />
+            <TableColumn prefWidth="103.0" text="Course ID" />
+            <TableColumn prefWidth="103.0" text="Start Date" />
+            <TableColumn prefWidth="154.0" text="Description" />
+            <TableColumn prefWidth="106.0" text="Capacity of Batch" />
+         </columns>
+      </TableView>
+      <TextField fx:id="Cid" layoutX="35.0" layoutY="91.0" prefHeight="25.0" prefWidth="533.0" promptText="Batch ID" />
+      <TextField fx:id="Cname" layoutX="35.0" layoutY="127.0" prefHeight="25.0" prefWidth="533.0" promptText="Course ID" />
+      <TextField fx:id="Cdis" layoutX="35.0" layoutY="202.0" prefHeight="25.0" prefWidth="533.0" promptText="Description" />
+      <TextField fx:id="Sdate" layoutX="35.0" layoutY="165.0" prefHeight="25.0" prefWidth="533.0" promptText="Start Date" />
+      <Label layoutX="207.0" layoutY="38.0" prefHeight="30.0" prefWidth="213.0" text="Batch Information">
+         <font>
+            <Font name="Bodoni MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amount" layoutX="35.0" layoutY="240.0" prefHeight="25.0" prefWidth="533.0" promptText="Capacity of Batch" />
+   </children>
+</AnchorPane>

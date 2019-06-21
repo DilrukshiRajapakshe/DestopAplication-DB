@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ViewOder" prefHeight="615.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.dilrukshi.rajapakshe.controller.ViewPaymentOF_StockItemController">
+    <children>
+        <VBox layoutY="53.0" prefHeight="563.0" prefWidth="194.0" style="-fx-background-color: #fea500;">
+            <children>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField editable="false" focusTraversable="false" onMouseClicked="#DashBord" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Dash Board">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField editable="false" focusTraversable="false" onMouseClicked="#StockManagement" prefHeight="46.0" prefWidth="192.0" style="-fx-background-color: #fea500;" text="Stock Management">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#Employee" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Employee">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#Suppler" prefHeight="46.0" prefWidth="168.0" style="-fx-background-color: #fea500;" text="Supplyer">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#Attended" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Attendence">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#OderDetails" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Oder Details">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#Payment" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Payment">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#Help" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Help">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#About" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="About">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+                    <children>
+                        <TextField focusTraversable="false" onMouseClicked="#LogOut" prefHeight="52.0" prefWidth="169.0" style="-fx-background-color: #fea500;" text="LogOut">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+            </children></VBox>
+        <HBox prefHeight="54.0" prefWidth="1279.0" style="-fx-background-color: a62829;">
+            <children>
+                <Label prefHeight="54.0" prefWidth="1214.0" text="                                                                                     Hardware Management" textFill="#f8f7f7">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <Label layoutX="210.0" layoutY="69.0" prefHeight="26.0" prefWidth="489.0" text="View Order">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+      <Label layoutX="479.0" layoutY="107.0" prefHeight="17.0" prefWidth="128.0" text="Date" />
+      <Label layoutX="211.0" layoutY="107.0" prefHeight="17.0" prefWidth="128.0" text="Bill ID" />
+      <Label layoutX="479.0" layoutY="158.0" prefHeight="17.0" prefWidth="128.0" text="Customer Address" />
+      <TextField fx:id="billID" layoutX="210.0" layoutY="124.0" prefHeight="26.0" prefWidth="227.0" promptText="Enter deteil" />
+      <TextField fx:id="date" layoutX="479.0" layoutY="124.0" prefHeight="26.0" prefWidth="250.0" promptText="Enter deteil" />
+      <TextField fx:id="address" layoutX="477.0" layoutY="175.0" prefHeight="26.0" prefWidth="792.0" promptText="Enter deteil" />
+      <Label layoutX="767.0" layoutY="107.0" prefHeight="17.0" prefWidth="128.0" text="Customer Name" />
+      <Label layoutX="208.0" layoutY="158.0" prefHeight="17.0" prefWidth="128.0" text="Customer Tel" />
+      <TextField fx:id="cuName" layoutX="767.0" layoutY="124.0" prefHeight="26.0" prefWidth="500.0" promptText="Enter deteil" />
+      <TextField fx:id="cutel" layoutX="208.0" layoutY="175.0" prefHeight="26.0" prefWidth="227.0" promptText="Enter deteil" />
+      <Label layoutX="210.0" layoutY="213.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="type" layoutX="210.0" layoutY="231.0" prefHeight="25.0" prefWidth="227.0" />
+      <TableView fx:id="paymenttable" layoutX="208.0" layoutY="285.0" prefHeight="267.0" prefWidth="1056.0" style="-fx-border-color: #f97a6c;">
+         <columns>
+            <TableColumn prefWidth="131.00003051757812" style="-fx-background-color:#fcbdb6;" text="Item ID" />
+            <TableColumn prefWidth="155.0" style="-fx-background-color:#fcbdb6;" text="Item Name" />
+            <TableColumn prefWidth="146.0" style="-fx-background-color:#fcbdb6;" text="Selling /Rent price" />
+            <TableColumn prefWidth="166.0" style="-fx-background-color:#fcbdb6;" text="Given Discount" />
+            <TableColumn prefWidth="108.0" style="-fx-background-color:#fcbdb6;" text="Sell /Rent Qty" />
+            <TableColumn prefWidth="212.0" style="-fx-background-color:#fcbdb6;" text="Brand / Amount of Rent date" />
+            <TableColumn prefWidth="135.0" style="-fx-background-color:#fcbdb6;" text="Total" />
+         </columns>
+      </TableView>
+      <Label layoutX="208.0" layoutY="578.0" prefHeight="17.0" prefWidth="78.0" text="Total">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="total" layoutX="322.0" layoutY="574.0" prefHeight="25.0" prefWidth="943.0" />
+      <Label layoutX="211.0" layoutY="213.0" prefHeight="17.0" prefWidth="128.0" text="Type" />
+    </children>
+</AnchorPane>

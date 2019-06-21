@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashBord" prefHeight="554.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.dilrukshi.rajapakshe.controller.MainController">
+   <children>
+      <VBox layoutY="53.0" prefHeight="508.0" prefWidth="194.0" style="-fx-background-color: #fea500;">
+         <children>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField editable="false" focusTraversable="false" onMouseClicked="#DashBord" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Dash Board">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField editable="false" focusTraversable="false" onMouseClicked="#StockManagement" prefHeight="46.0" prefWidth="192.0" style="-fx-background-color: #fea500;" text="Stock Management">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#Employee" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Employee">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#Suppler" prefHeight="46.0" prefWidth="168.0" style="-fx-background-color: #fea500;" text="Suppler">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#Attended" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Attended">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#OderDetails" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Oder Details">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#Payment" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Payment">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#Help" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="Help">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#About" prefHeight="46.0" prefWidth="175.0" style="-fx-background-color: #fea500;" text="About">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="51.0" prefWidth="175.0" style="-fx-border-color: a62829;">
+               <children>
+                  <TextField focusTraversable="false" onMouseClicked="#LogOut" prefHeight="52.0" prefWidth="169.0" style="-fx-background-color: #fea500;" text="LogOut">
+                     <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+         </children></VBox>
+      <VBox disable="true" layoutX="194.0" layoutY="238.0" prefHeight="323.0" prefWidth="779.0">
+         <children>
+            <BarChart fx:id="attendedChart" prefHeight="348.0" prefWidth="779.0">
+              <xAxis>
+                <CategoryAxis prefHeight="31.0" prefWidth="722.0" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children></VBox>
+      <HBox prefHeight="54.0" prefWidth="973.0" style="-fx-background-color: a62829;">
+         <children>
+            <Label prefHeight="114.0" prefWidth="974.0" text="                                                             Hardwara Management" textFill="#f8f7f7">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="194.0" layoutY="164.0" prefHeight="60.0" prefWidth="779.0" text="                       Attended Chart" textAlignment="JUSTIFY">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="Cname" layoutX="201.0" layoutY="100.0" prefHeight="28.0" prefWidth="260.0" promptText="Choose A Type" />
+      <TextField fx:id="searchT" layoutX="480.0" layoutY="102.0" onKeyReleased="#search" prefHeight="26.0" prefWidth="485.0" promptText="Enter deteil" />
+      <ImageView layoutX="935.0" layoutY="103.0">
+         <image>
+            <Image url="@../image/Search_24px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

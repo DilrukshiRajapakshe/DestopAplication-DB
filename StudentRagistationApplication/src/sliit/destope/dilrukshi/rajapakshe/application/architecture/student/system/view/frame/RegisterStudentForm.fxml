@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="registerForm" prefHeight="578.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sliit.destope.dilrukshi.rajapakshe.application.architecture.student.system.controller.StudentRegisterFormController">
+   <children>
+      <ImageView fx:id="home" fitHeight="45.0" fitWidth="38.0" layoutX="35.0" layoutY="45.0" onMouseClicked="#goHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Home_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="38.0" fitWidth="38.0" layoutX="655.0" layoutY="45.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Back_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="save" fitHeight="38.0" fitWidth="38.0" layoutX="240.0" layoutY="494.0" onMouseClicked="#SaveANDUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/SaveAll_96px.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Sid" layoutX="36.0" layoutY="124.0" prefHeight="25.0" prefWidth="658.0" promptText="Student Id" />
+      <TextField fx:id="SIniName" layoutX="36.0" layoutY="160.0" prefHeight="25.0" prefWidth="658.0" promptText="Student Initials name" />
+      <TextField fx:id="SfulName" layoutX="35.0" layoutY="195.0" prefHeight="25.0" prefWidth="658.0" promptText="Student full name" />
+      <TextField fx:id="SAdd" layoutX="35.0" layoutY="229.0" prefHeight="25.0" prefWidth="658.0" promptText="Address" />
+      <TextField fx:id="Scity" layoutX="35.0" layoutY="264.0" prefHeight="25.0" prefWidth="658.0" promptText="City" />
+      <Label layoutX="125.0" layoutY="42.0" prefHeight="44.0" prefWidth="481.0" text=" Student Personal Information">
+         <font>
+            <Font name="Bodoni MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Htel" layoutX="36.0" layoutY="301.0" prefHeight="25.0" prefWidth="658.0" promptText="Tel Home" />
+      <TextField fx:id="Mtel" layoutX="36.0" layoutY="337.0" prefHeight="25.0" prefWidth="658.0" promptText="Tel Mobile" />
+      <TextField fx:id="Email" layoutX="35.0" layoutY="372.0" prefHeight="25.0" prefWidth="658.0" promptText="Email" />
+      <TextField fx:id="Sbd" layoutX="35.0" layoutY="406.0" prefHeight="25.0" prefWidth="658.0" promptText="Date of Birthday" />
+      <Label layoutX="36.0" layoutY="450.0" prefHeight="17.0" prefWidth="187.0" text="Gender" />
+      <HBox fx:id="genderGroup" layoutX="199.0" layoutY="450.0" prefHeight="44.0" prefWidth="503.0">
+         <children>
+            <RadioButton fx:id="fmail" mnemonicParsing="false" prefHeight="18.0" prefWidth="173.0" text="Female">
+               <toggleGroup>
+                  <ToggleGroup fx:id="gender" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="mail" mnemonicParsing="false" prefHeight="18.0" prefWidth="186.0" text="Male" toggleGroup="$gender" />
+         </children>
+      </HBox>
+      <ImageView fx:id="upDated" fitHeight="38.0" fitWidth="38.0" layoutX="424.0" layoutY="494.0" onMouseClicked="#UpdatedDetailed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/update.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

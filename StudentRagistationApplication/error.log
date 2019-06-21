@@ -1,0 +1,1395 @@
+Dec 03, 2018 1:36:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:37:41 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:37:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:39:56 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:39:59 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:40:06 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:40:08 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:40:20 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:45:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:45:32 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:45:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 1:45:44 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLException: No suitable driver found for jdbc:mysql://null:null/null
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dataBase.DBConnection.getConnection(DBConnection.java:31)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 2:32:11 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 2:32:13 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 2:32:15 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 2:32:21 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLNonTransientConnectionException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair 'null:null'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:131)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:227)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dataBase.DBConnection.getConnection(DBConnection.java:31)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair 'null:null'.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	... 50 more
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: Failed to parse the host:port pair 'null:null'.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:502)
+	at com.mysql.cj.conf.ConnectionUrlParser.buildHostInfoResortingToGenericSyntaxParser(ConnectionUrlParser.java:440)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySegment(ConnectionUrlParser.java:269)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseAuthoritySection(ConnectionUrlParser.java:183)
+	at com.mysql.cj.conf.ConnectionUrlParser.getHosts(ConnectionUrlParser.java:632)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:198)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:204)
+	... 49 more
+Caused by: java.lang.NumberFormatException: For input string: "null"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseHostPortPair(ConnectionUrlParser.java:500)
+	... 55 more
+
+Dec 03, 2018 2:35:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 2:35:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 2:35:21 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:35:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:35:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:35:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:37:52 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:37:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:37:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:38:56 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:38:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:38:59 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:39:52 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:39:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:39:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:42:05 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:42:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:42:08 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:43:42 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:43:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:43:45 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:44:24 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:44:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:44:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:45:46 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:45:48 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:45:49 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:47:41 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:47:43 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:47:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:52:05 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:52:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:52:11 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:53:01 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:53:03 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:53:04 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:56:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:56:18 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:56:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:59:32 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:59:33 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 3:59:34 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:01:29 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:01:32 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:01:33 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:02:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:02:14 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:02:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:05:48 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:05:50 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:05:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:09:01 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:09:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:09:29 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:09:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:11:40 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:11:42 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:11:43 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:13:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:13:33 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:13:36 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:13:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:14:52 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:14:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:14:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:16:45 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'C0001' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 4:18:22 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:18:24 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:18:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:18:38 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'C0001' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 4:19:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:19:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:19:11 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:20:06 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:20:12 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:20:13 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:20:19 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'C0002' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 4:31:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:31:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:31:28 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:36:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:36:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:36:20 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:37:43 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:37:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:37:45 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:37:58 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'C0001' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 4:38:35 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:38:38 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:38:39 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 4:38:57 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'C0001' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:43)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.save(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.createCourse(ManageCourseBOImpl.java:27)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.SaveANDUpdate(CourseDetailsCountroller.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 5:06:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:06:11 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:06:12 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:07:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:07:57 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:07:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:08:05 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bid' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.delete(CourseDAOImpl.java:55)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.delete(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.deleteCourse(ManageCourseBOImpl.java:37)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.DeletedRow(CourseDetailsCountroller.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 5:10:39 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bid' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.delete(CourseDAOImpl.java:55)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.CourseDAOImpl.delete(CourseDAOImpl.java:13)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageCourseBOImpl.deleteCourse(ManageCourseBOImpl.java:37)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.CourseDetailsCountroller.DeletedRow(CourseDetailsCountroller.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 5:19:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:19:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:19:18 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:21:08 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:21:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 5:21:12 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:39:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:39:39 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:40:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:41:00 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:41:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:47:23 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:47:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:47:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:52:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:52:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:52:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:54:50 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:54:52 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 8:54:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:04:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:04:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:04:20 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:06:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:07:01 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:07:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:12:03 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:12:05 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:12:06 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:12:30 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+Dec 03, 2018 9:17:14 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:17:15 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:17:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:17:42 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+Dec 03, 2018 9:28:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:29:00 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:29:01 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:29:23 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+Dec 03, 2018 9:39:01 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:39:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:39:03 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:39:21 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`student_registation`.`batch`, CONSTRAINT `batch_ibfk_1` FOREIGN KEY (`Cid`) REFERENCES `course` (`Cid`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.save(BatchDAOImpl.java:48)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.save(BatchDAOImpl.java:12)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageBatchBOImpl.createBatch(ManageBatchBOImpl.java:24)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller.SaveANDUpdate(BatchDetailsCountroller.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 9:43:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:43:28 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:43:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:44:42 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:44:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:44:47 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:45:23 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:45:29 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:45:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:46:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:46:57 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:46:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:47:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:47:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:47:54 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:48:56 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:48:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:48:59 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:49:10 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bdisc' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:54)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:12)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageBatchBOImpl.updateBatch(ManageBatchBOImpl.java:29)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller.SaveANDUpdate(BatchDetailsCountroller.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 9:50:32 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:50:34 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:50:35 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:50:46 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bdisc' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:54)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:12)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageBatchBOImpl.updateBatch(ManageBatchBOImpl.java:29)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller.SaveANDUpdate(BatchDetailsCountroller.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 9:51:48 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:51:50 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:51:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:52:05 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bdisc' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:54)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:12)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageBatchBOImpl.updateBatch(ManageBatchBOImpl.java:29)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller.SaveANDUpdate(BatchDetailsCountroller.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 9:53:20 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:53:22 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:53:23 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:53:33 PM java.util.logging.LogManager$RootLogger log
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Unknown column 'Bdisc' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.CrudUtil.execute(CrudUtil.java:25)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:54)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.dao.custom.impl.BatchDAOImpl.update(BatchDAOImpl.java:12)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.business.custom.impl.ManageBatchBOImpl.updateBatch(ManageBatchBOImpl.java:29)
+	at ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.BatchDetailsCountroller.SaveANDUpdate(BatchDetailsCountroller.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:394)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$353(GlassViewEventHandler.java:432)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:431)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 03, 2018 9:56:23 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:56:25 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 9:56:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 10:00:38 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 10:00:39 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 10:00:40 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 03, 2018 10:00:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:11:49 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:11:56 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:13:04 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:13:07 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:17:18 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:17:19 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:17:21 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:18:32 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:18:34 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:19:04 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:26:36 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:26:39 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:26:40 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:26:57 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:54:39 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:54:43 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:54:45 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:54:59 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:59:30 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:59:32 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:59:33 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 12:59:49 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 1:00:49 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 1:00:51 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 1:00:53 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 1:01:10 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 1:01:22 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 4:21:18 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 4:31:44 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 6:08:22 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 8:12:22 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 8:55:18 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 8:55:28 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 8:55:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 8:55:31 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:01:33 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:01:35 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:11:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:11:05 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:17:00 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:17:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:21:12 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:21:15 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:22:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:22:04 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:26:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:26:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:30:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:30:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:37:05 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:37:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:38:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:38:18 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:38:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:38:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:39:46 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:39:47 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:45:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:45:04 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:46:26 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:46:28 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:52:56 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:52:57 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:55:07 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 9:55:10 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:50:51 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:50:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:50:58 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:51:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:51:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:51:27 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:56:59 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:03 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:12 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:29 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:57:47 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:58:28 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 04, 2018 11:58:40 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 7:07:45 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 7:07:50 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 7:08:00 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:17 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:19 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:20 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:37 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:49:47 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:50:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:50:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:50:55 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:51:02 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:51:09 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 15, 2018 11:51:15 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 16, 2018 8:05:53 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161
+Dec 19, 2018 5:32:51 AM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 10.0.1 by JavaFX runtime of version 8.0.161

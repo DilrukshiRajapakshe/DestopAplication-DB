@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="login" prefHeight="486.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.dilrukshi.rajapakshe.controller.LoginController">
+    <children>
+        <HBox layoutX="-10.0" prefHeight="54.0" prefWidth="694.0" style="-fx-background-color: a62829;">
+            <children>
+                <Label prefHeight="54.0" prefWidth="610.0" text="                                    Hardwara Management" textFill="#f8f7f7">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+      <ImageView fx:id="loginImage" fitHeight="488.0" fitWidth="694.0" layoutX="-10.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/plain6.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="43.0" layoutY="120.0" prefHeight="298.0" prefWidth="365.0" style="-fx-background-color: #ffffff; -fx-border-color: #b3ccff;">
+         <children>
+            <Label layoutX="30.0" layoutY="63.0" text="Email OR User Name" />
+            <TextField fx:id="email" layoutX="30.0" layoutY="80.0" prefHeight="25.0" prefWidth="297.0" />
+            <Label layoutX="30.0" layoutY="123.0" prefHeight="17.0" prefWidth="126.0" text="Password" />
+            <TextField fx:id="password" layoutX="30.0" layoutY="140.0" prefHeight="25.0" prefWidth="297.0" />
+            <Button fx:id="loginB" layoutX="30.0" layoutY="189.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="297.0" style="-fx-background-color: #ffe6f9; -fx-border-color: #e600ac;" text="Login" />
+            <Button fx:id="resetB" layoutX="30.0" layoutY="236.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="297.0" style="-fx-background-color: #ffe6f9; -fx-border-color: #e600ac;" text="Reset Password" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

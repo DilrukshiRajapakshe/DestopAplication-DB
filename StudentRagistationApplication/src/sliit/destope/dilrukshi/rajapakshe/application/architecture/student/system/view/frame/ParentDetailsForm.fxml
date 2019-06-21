@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parentForm" prefHeight="439.0" prefWidth="581.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sliit.destope.dilrukshi.rajapakshe.application.architecture.student.system.controller.RegisterParentDetailsCountroller">
+   <children>
+      <ImageView fx:id="home" fitHeight="45.0" fitWidth="38.0" layoutX="24.0" layoutY="24.0" onMouseClicked="#goHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Home_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="38.0" fitWidth="38.0" layoutX="522.0" layoutY="24.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Back_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="save" fitHeight="38.0" fitWidth="38.0" layoutX="188.0" layoutY="369.0" onMouseClicked="#SaveANDUpdate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/SaveAll_96px.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Sid" layoutX="25.0" layoutY="81.0" prefHeight="25.0" prefWidth="533.0" promptText="Student ID" />
+      <TextField fx:id="name" layoutX="25.0" layoutY="117.0" prefHeight="25.0" prefWidth="533.0" promptText="Parent Name" />
+      <TextField fx:id="Mtel" layoutX="24.0" layoutY="152.0" prefHeight="25.0" prefWidth="533.0" promptText="Mother or father tel" />
+      <TextField fx:id="Ftel" layoutX="24.0" layoutY="186.0" prefHeight="25.0" prefWidth="533.0" promptText="Mother or father  work plase tel " />
+      <TextField fx:id="email" layoutX="24.0" layoutY="221.0" prefHeight="25.0" prefWidth="533.0" promptText="Fater or Mother Email" />
+      <Label layoutX="197.0" layoutY="28.0" prefHeight="30.0" prefWidth="213.0" text="Parent Information">
+         <font>
+            <Font name="Bodoni MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="postion" layoutX="25.0" layoutY="258.0" prefHeight="25.0" prefWidth="533.0" promptText="Positions" />
+      <TextField fx:id="work" layoutX="25.0" layoutY="294.0" prefHeight="25.0" prefWidth="533.0" promptText="Work plase Name" />
+      <TextField fx:id="add" layoutX="24.0" layoutY="329.0" prefHeight="25.0" prefWidth="533.0" promptText="Work plase Address" />
+      <ImageView fx:id="upDated" fitHeight="38.0" fitWidth="38.0" layoutX="332.0" layoutY="369.0" onMouseClicked="#UpdatedDetailed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/update.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

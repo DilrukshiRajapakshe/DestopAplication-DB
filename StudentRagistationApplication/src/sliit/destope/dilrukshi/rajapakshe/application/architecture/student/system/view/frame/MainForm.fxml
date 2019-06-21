@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainForm" prefHeight="271.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sliit.destope.dilrukshi.rajapakshe.application.architecture.student.system.controller.MainPageCountroller">
+   <children>
+      <ImageView fitHeight="130.0" fitWidth="140.0" layoutX="14.0" layoutY="95.0" onMouseClicked="#UnregisterLogin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/User_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="140.0" layoutX="166.0" layoutY="87.0" onMouseClicked="#RegisterLogin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/StudentMale_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="140.0" layoutX="321.0" layoutY="95.0" onMouseClicked="#SystemLogin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/AdministratorMale_96px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="233.0" onMouseClicked="#UnregisterLogin" prefHeight="17.0" prefWidth="87.0" text="Un register">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="233.0" onMouseClicked="#RegisterLogin" prefHeight="17.0" prefWidth="110.0" text="Register">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="233.0" onMouseClicked="#SystemLogin" prefHeight="17.0" prefWidth="110.0" text="System">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutY="15.0" prefHeight="65.0" prefWidth="474.0" text=" Student and Straf Login" textAlignment="CENTER" textFill="#ff5213">
+         <font>
+            <Font name="Broadway" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

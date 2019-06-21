@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="selectMenu" prefHeight="281.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.dilrukshi.rajapakshe.application.architecture.student.system.controller.SelectFuntionCountroller">
+   <children>
+      <ImageView fitHeight="71.0" fitWidth="102.0" layoutX="144.0" layoutY="98.0" onMouseClicked="#ManageRegisterUser" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/EditProperty_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="NewUser" fitHeight="81.0" fitWidth="87.0" layoutX="31.0" layoutY="90.0" onMouseClicked="#NewUserCreation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/IdentificationDocuments_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="81.0" layoutX="356.0" layoutY="98.0" onMouseClicked="#GroupDetail" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/PurchaseOrder_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="243.0" layoutY="98.0" onMouseClicked="#RigsterCourse" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/Books_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="465.0" layoutY="98.0" onMouseClicked="#CourseDetails" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/About_96px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="38.0" layoutY="201.0" onMouseClicked="#ManageRegisterUser" prefHeight="17.0" prefWidth="81.0" text="New User ">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="201.0" onMouseClicked="#ManageRegisterUser" text="Manage user">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="201.0" onMouseClicked="#RigsterCourse" text=" Group Details">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="201.0" onMouseClicked="#RigsterCourse" text="Register course">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="202.0" onMouseClicked="#CourseDetails" text="Course Detail">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="29.0" prefHeight="41.0" prefWidth="373.0" text="Select Menu Action" textFill="#e03607">
+         <font>
+            <Font name="Broadway" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
